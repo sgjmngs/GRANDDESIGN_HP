@@ -1,39 +1,9 @@
-html, body {
-    height: 100%;
-}
 a {
     color: #fff;
 }
 
 a img {
     width: 100%;
-    max-width: 100%;
-    height: auto;
-}
-
-.head_bg {
-    height: 80px;
-    background-color: rgba(0, 0, 0, 1);
-}
-
-.headcontent {
-    height: auto;
-    background-image: url('../img/common/main.jpg');
-    height: 0;
-    padding-top: 60%;
-    background-size: cover;
-}
-
-.pull-left {
-    margin-top: 30px;
-    border-right: 1px solid #fff;
-}
-
-.logo {
-    width: 60px;
-    padding:0;
-    margin-top: 10px;
-    margin-left: 20px;
 }
 
 .footer {
@@ -45,7 +15,7 @@ a img {
 
 .footer .company .companybox {
     padding: 10px 0;
-    padding-top:30px;
+    padding-top: 30px;
 }
 
 .footer .copyright {
@@ -60,4 +30,30 @@ a img {
 
 .margin-bottom_50 {
     margin-bottom: 50px;
+}
+
+.navbar {
+    min-height: 80px;
+}
+
+.navbar-default {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-color: rgba(0, 0, 0, 0.8);
+}
+
+.head_logo {
+    padding: 10px 25px;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 30px 35px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: rgba(180, 0, 0, 0.6);
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
 }
