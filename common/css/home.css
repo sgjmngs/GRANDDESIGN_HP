@@ -1,35 +1,9 @@
-a {
-    color: #fff;
-}
-
-.headcontent {
-    height: 90px;
-    background: #000;
-}
-
-.headcontent a .logo {
-    width: 60px;
-    float: left;
-    margin: 15px 45px;
-    margin-right: 80px;
-}
-
-.headcontent .head_nav {
-    float: left;
-    margin-top: 35px;
-}
-
-.headcontent .head_nav ul li {
-    border-right: 1px solid #fff;
-}
-
 .container {
     width: 100%;
     padding: 0 0;
     font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-    background: url(../common/img/common/bg.jpg);
-    margin-bottom: 240px;
-
+    background: url('../img/common/bg.jpg') no-repeat;
+    background-size:cover;
 }
 
 .container a img {
@@ -50,7 +24,7 @@ a {
 }
 
 .container .list-group-item {
-    width: 1000px;
+    width: auto;
     margin: 0 auto;
     margin-bottom: 25px;
     padding-bottom: 0;
@@ -62,32 +36,29 @@ a {
 }
 
 .container .list-group-item-text {
-    width: 800px;
+    width: auto;
     color: #000;
     margin: 0 auto;
     padding: 10px 0;
     border-top: 1px solid #000;
 }
 
-.footer {
-    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-    background: #000;
-    color: #fff;
-    text-align: center;
-
+.line {
+    padding-bottom: 25px;
+    margin-bottom:35px;
+    background-image: url('../img/common/line.gif');
+    background-position: bottom;
+    background-repeat: repeat-x;
 }
 
-.footer .footer_nav ul li {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-right: 1px solid #fff;
-}
-.footer .company .companybox {
-    margin: 30px 0;
+.col-xs-12 {
+    padding: 0 0;
 }
 
-.footer .copyright {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 11px;
+.col-xs-3 {
+    padding: 0 0;
+}
+
+.col-xs-6 {
+    padding: 0 0;
 }
