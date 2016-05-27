@@ -1,0 +1,122 @@
+a {
+    color: #fff;
+}
+
+a img {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    padding: 0 0;
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    background: url('../img/common/bg.jpg') no-repeat;
+    background-size: cover;
+}
+
+.container .row {
+    width: 100%;
+    margin: 0 0;
+}
+
+.roll_over:hover img {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -ms-filter: "alpha(opacity=70)";
+}
+
+.col-xs-12 {
+    padding: 0;
+}
+
+.footer {
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.footer .company .companybox {
+    padding: 10px 0;
+    padding-top: 30px;
+}
+
+.footer .copyright {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 11px;
+}
+
+.foot_logo {
+    width: 300px;
+}
+
+.margin-bottom_50 {
+    margin-bottom: 50px;
+}
+
+.navbar {
+    min-height: 80px;
+}
+
+.navbar-default {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 0;
+}
+
+.head_logo {
+    padding: 10px 25px;
+    margin-right: 30px;
+}
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    margin: 15px 20px;
+}
+
+.navbar-default .navbar-nav li a {
+    border-top: dotted 2px #fff;
+    border-bottom: dotted 2px #fff;
+    color: #fff;
+    font-family: "ＭＳ ゴシック", sans-serif;
+}
+
+.navbar-default .navbar-nav:hover,
+.navbar-default .navbar-nav:focus {
+    color: #fff;
+    background-color: rgba(180, 0, 0, 0.6);
+}
+
+.navbar-default .navbar-nav > .active,
+.navbar-default .navbar-nav > .active:hover,
+.navbar-default .navbar-nav > .active:focus {
+    color: #fff;
+    background-color: rgba(180, 0, 0, 0.6);
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: rgba(180, 0, 0, 0);
+}
+
+.nav_line {
+    float: left;
+    color: #fff;
+    margin: 30px 5px;
+}
+
+.well {
+    min-height: 0;
+    padding: 0;
+}
+
+.line {
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+    background-image: url('../img/common/line.gif');
+    background-position: bottom;
+    background-repeat: repeat-x;
+}

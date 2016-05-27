@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>株式会社GRANDDESIGN</title>
+    <link href="../common/css/bootstrap.css" rel="stylesheet">
+    <link href="../common/css/import.css" rel="stylesheet">
+    <link href="../common/css/contact.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../common/js/bootstrap.min.js"></script>
+    <!--メールフォームプロ用CSS-->
+    <link rel="stylesheet" href="mfp.statics/mailformpro.css" type="text/css" />
+    <!--/メールフォームプロ用CSS-->
+    <link rel="stylesheet" href="mfp.statics/example.css" type="text/css" />
+</head>
+
+<body>
+    <script type="text/javascript" src="example.js"></script>
+    <div class="container center-block text-center">
+        <div class="row">
+            <div class="col-xs-12">
+                <nav class="navbar navbar-default  navbar-fixed-top">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarEexample1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand head_logo" href="../index.html"><img src="../common/img/common/logo.png" alt="GRANDDESIGN"></a>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="navbarEexample1">
+                            <ul class="nav navbar-nav">
+                                <li><a class="active" href="../about/index.html">ABOUT US</a></li><span class="nav_line">|</span>
+                                <li><a href="../vision/index.html">VISION</a></li><span class="nav_line">|</span>
+                                <li><a href="../service/index.html">SERVICE</a></li><span class="nav_line">|</span>
+                                <li><a href="../works/index.html">WORKS</a></li><span class="nav_line">|</span>
+                                <li class="active"><a href="../contact/index.html">CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <a><img src="../common/img/contact/main.jpg" alt="MAIN"></a>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="main">
+                    <div class="row">
+                        <div class="col-xs-8 col-xs-offset-2 margin-bottom_50">
+
+                            <!--メールフォームプロ-->
+                            <form id="mailformpro" action="mailformpro/mailformpro.cgi" method="POST">
+                                <dl class="mailform">
+                                    <input type="hidden" name="お名前" data-unjoin="姓+ +名+（+セイ+ +メイ+）" value="" />
+                                    <dt class="mfp">お名前</dt>
+                                    <dd class="mfp">
+                                        <input type="text" name="姓" data-kana="セイ" size="15" required="required" />
+                                        <input type="text" name="名" data-kana="メイ" size="15" required="required" />
+                                    </dd>
+                                    <dt class="mfp">フリガナ</dt>
+                                    <dd class="mfp">
+                                        <input type="text" name="セイ" size="15" data-charcheck="kana" />
+                                        <input type="text" name="メイ" size="15" data-charcheck="kana" />
+                                    </dd>
+
+                                    <dt class="mfp">メールアドレス</dt>
+                                    <dd class="mfp">
+                                        <input type="email" data-type="email" name="email" size="40" required="required" />
+                                    </dd>
+
+                                    <dt class="mfp">確認のためもう一度</dt>
+                                    <dd class="mfp">
+                                        <input type="email" data-type="email" name="confirm_email" data-post-disable="1" size="40" required="required" />
+                                    </dd>
+
+                                    <dt class="mfp">備考欄</dt>
+                                    <dd class="mfp">
+                                        <textarea name="備考欄" rows="10" cols="60"></textarea>
+                                    </dd>
+                                </dl>
+                                <div class="mfp_buttons">
+                                    <button type="submit">送信する</button>&nbsp;&nbsp;
+                                    
+                                </div>
+                            </form>
+                            <script type="text/javascript" id="mfpjs" src="mailformpro/mailformpro.cgi" charset="UTF-8"></script>
+                            <!--/メールフォームプロ-->
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="company">
+            <div class="companybox">
+                <p>
+                    <a class="roll_fout" href="index.html" target="_blank"><img class="foot_logo" src="../common/img/common/granddesign.png" alt="GRANDDESIGN" style="opacity: 1;"></a>
+                </p>
+                <p>MJhaitsu 1F, 2-16-10, Sangenjaya, Setagaya-ku, Tokyo, 154-0024, Japan</p>
+            </div>
+            <div class="g_map">
+                <h4>GOOGLE MAP</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1773.3681130628859!2d139.6679518933408!3d35.64294820112522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f49edd0fdec1%3A0x33ba602ff17c4e4e!2z44CSMTU0LTAwMjQg5p2x5Lqs6YO95LiW55Sw6LC35Yy65LiJ6LuS6Iy25bGL77yS5LiB55uu77yR77yW4oiS77yR77yQIO-8re-8quODj-OCpOODhA!5e0!3m2!1sja!2sjp!4v1461755456877" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <p class="copyright">Copyright © 2016 GRAND DESIGN.ALL RIGHTS RESERVED</p>
+        </div>
+    </div>
+</body>
+
+</html>

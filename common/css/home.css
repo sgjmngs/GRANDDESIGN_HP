@@ -1,0 +1,97 @@
+.container .row .col-md-3 {
+    padding: 0;
+}
+
+.container .row .col-md-6 {
+    padding: 0;
+}
+
+.container .list-group-item {
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding-bottom: 0;
+    border: 1px solid #000;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.container .list-group-item .list-group-item-heading {
+    color: #0000cd;
+}
+
+.container .list-group-item-text {
+    width: auto;
+    color: #000;
+    margin: 0 auto;
+    padding: 10px 0;
+    border-top: 1px solid #000;
+}
+
+.col-xs-12 {
+    padding: 0 0;
+}
+
+.col-xs-3 {
+    padding: 0 0;
+}
+
+.col-xs-6 {
+    padding: 0 0;
+}
+
+.view_more {
+    margin-top: -95px;
+}
+
+.well {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn-default {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.btn-default:focus,
+.btn-default.focus {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.btn-default:hover {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.btn-default:active:hover,
+.btn-default.active:hover,
+.open > .dropdown-toggle.btn-default:hover,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.open > .dropdown-toggle.btn-default:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default.focus {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
