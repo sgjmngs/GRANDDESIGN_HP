@@ -51,8 +51,20 @@ a img {
     width: 300px;
 }
 
+.margin-bottom_40 {
+    margin-bottom: 40px;
+}
+
 .margin-bottom_50 {
     margin-bottom: 50px;
+}
+
+.margin-bottom_90 {
+    margin-bottom: 90px;
+}
+
+.margin-bottom_150 {
+    margin-bottom: 150px;
 }
 
 .navbar {
