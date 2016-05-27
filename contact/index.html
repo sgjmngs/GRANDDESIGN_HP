@@ -11,9 +11,14 @@
     <link href="../common/css/contact.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="../common/js/bootstrap.min.js"></script>
+    <!--メールフォームプロ用CSS-->
+    <link rel="stylesheet" href="mfp.statics/mailformpro.css" type="text/css" />
+    <!--/メールフォームプロ用CSS-->
+    <link rel="stylesheet" href="mfp.statics/example.css" type="text/css" />
 </head>
 
 <body>
+    <script type="text/javascript" src="example.js"></script>
     <div class="container center-block text-center">
         <div class="row">
             <div class="col-xs-12">
@@ -45,17 +50,59 @@
                 <a><img src="../common/img/contact/main.jpg" alt="MAIN"></a>
             </div>
         </div>
-    </div>
 
-        <div class="container center-block text-center">
-            <div class="row">
-                <div class="col-xs-12">
-                    <p>
-                        <a class="navbar-brand mail"><img src="../common/img/contact/mail.jpg" alt="GRANDDESIGN"></a>
-                    </p>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="main">
+                    <div class="row">
+                        <div class="col-xs-8 col-xs-offset-2 margin-bottom_50">
+
+                            <!--メールフォームプロ-->
+                            <form id="mailformpro" action="mailformpro/mailformpro.cgi" method="POST">
+                                <dl class="mailform">
+                                    <input type="hidden" name="お名前" data-unjoin="姓+ +名+（+セイ+ +メイ+）" value="" />
+                                    <dt class="mfp"><span>必須</span>お名前</dt>
+                                    <dd class="mfp">
+                                        <input type="text" name="姓" data-kana="セイ" size="15" required="required" />
+                                        <input type="text" name="名" data-kana="メイ" size="15" required="required" />
+                                    </dd>
+                                    <dt class="mfp">フリガナ</dt>
+                                    <dd class="mfp">
+                                        <input type="text" name="セイ" size="15" data-charcheck="kana" />
+                                        <input type="text" name="メイ" size="15" data-charcheck="kana" />
+                                    </dd>
+
+                                    <dt class="mfp"><span>必須</span>メールアドレス</dt>
+                                    <dd class="mfp">
+                                        <input type="email" data-type="email" name="email" size="40" required="required" />
+                                    </dd>
+
+                                    <dt class="mfp"><span>必須</span>確認のためもう一度</dt>
+                                    <dd class="mfp">
+                                        <input type="email" data-type="email" name="confirm_email" data-post-disable="1" size="40" required="required" />
+                                    </dd>
+
+                                    <dt class="mfp">備考欄</dt>
+                                    <dd class="mfp">
+                                        <textarea name="備考欄" rows="10" cols="60"></textarea>
+                                    </dd>
+                                </dl>
+                                <div class="mfp_buttons">
+                                    <button type="submit">送信する</button>&nbsp;&nbsp;
+                                    
+                                </div>
+                            </form>
+                            <script type="text/javascript" id="mfpjs" src="mailformpro/mailformpro.cgi" charset="UTF-8"></script>
+                            <!--/メールフォームプロ-->
+
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
 
     <div class="footer">
         <div class="company">

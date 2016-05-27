@@ -27,14 +27,6 @@
     border-top: 1px solid #000;
 }
 
-.line {
-    padding-bottom: 25px;
-    margin-bottom: 35px;
-    background-image: url('../img/common/line.gif');
-    background-position: bottom;
-    background-repeat: repeat-x;
-}
-
 .col-xs-12 {
     padding: 0 0;
 }
@@ -50,7 +42,8 @@
 .view_more {
     margin-top: -95px;
 }
-.well{
+
+.well {
     background-color: rgba(0, 0, 0, 0);
 }
 
@@ -100,5 +93,5 @@ fieldset[disabled] .btn-default:focus,
 .btn-default[disabled].focus,
 fieldset[disabled] .btn-default.focus {
     background-color: rgba(0, 0, 0, 0);
-    border-color:rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
 }

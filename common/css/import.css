@@ -24,9 +24,11 @@ a img {
     filter: alpha(opacity=70);
     -ms-filter: "alpha(opacity=70)";
 }
-.col-xs-12{
+
+.col-xs-12 {
     padding: 0;
 }
+
 .footer {
     font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
     background: #000;
@@ -80,11 +82,12 @@ a img {
     font-family: "ＭＳ ゴシック", sans-serif;
 }
 
-.navbar-default .navbar-nav :hover,
-.navbar-default .navbar-nav :focus {
+.navbar-default .navbar-nav:hover,
+.navbar-default .navbar-nav:focus {
     color: #fff;
     background-color: rgba(180, 0, 0, 0.6);
 }
+
 .navbar-default .navbar-nav > .active,
 .navbar-default .navbar-nav > .active:hover,
 .navbar-default .navbar-nav > .active:focus {
@@ -104,7 +107,16 @@ a img {
     color: #fff;
     margin: 30px 5px;
 }
-.well{
-    min-height:0;
-    padding:0;
+
+.well {
+    min-height: 0;
+    padding: 0;
+}
+
+.line {
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+    background-image: url('../img/common/line.gif');
+    background-position: bottom;
+    background-repeat: repeat-x;
 }
