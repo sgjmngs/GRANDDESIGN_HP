@@ -80,6 +80,11 @@ a img {
     font-family: "ＭＳ ゴシック", sans-serif;
 }
 
+.navbar-default .navbar-nav :hover,
+.navbar-default .navbar-nav :focus {
+    color: #fff;
+    background-color: rgba(180, 0, 0, 0.6);
+}
 .navbar-default .navbar-nav > .active,
 .navbar-default .navbar-nav > .active:hover,
 .navbar-default .navbar-nav > .active:focus {
