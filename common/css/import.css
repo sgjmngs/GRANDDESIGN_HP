@@ -94,8 +94,8 @@ a img {
     font-family: "ＭＳ ゴシック", sans-serif;
 }
 
-.navbar-default .navbar-nav:hover,
-.navbar-default .navbar-nav:focus {
+.navbar-default .navbar-nav li:hover,
+.navbar-default .navbar-nav li:focus {
     color: #fff;
     background-color: rgba(180, 0, 0, 0.6);
 }
