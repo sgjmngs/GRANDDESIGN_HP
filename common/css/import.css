@@ -25,9 +25,34 @@ body {
     font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
 }
 
+.container-fluid {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .container .row {
     width: 100%;
     margin: 0;
+}
+
+.col-xs-12 {
+    padding: 0;
+}
+
+.margin-bottom_40 {
+    margin-bottom: 40px;
+}
+
+.margin-bottom_50 {
+    margin-bottom: 50px;
+}
+
+.margin-bottom_90 {
+    margin-bottom: 90px;
+}
+
+.margin-bottom_150 {
+    margin-bottom: 150px;
 }
 
 .roll_over:hover img {
@@ -36,15 +61,17 @@ body {
     -ms-filter: "alpha(opacity=70)";
 }
 
-.col-xs-12 {
+.well {
+    min-height: 0;
     padding: 0;
 }
 
-.nav > li {
-    border-right: 1px solid #fff;
-}
-.nav > li:nth-child(1) {
-    border-left: 1px solid #fff;
+.line {
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+    background-image: url('../img/common/line.gif');
+    background-position: bottom;
+    background-repeat: repeat-x;
 }
 
 .footer {
@@ -70,24 +97,21 @@ body {
     width: 300px;
 }
 
-.margin-bottom_40 {
-    margin-bottom: 40px;
-}
 
-.margin-bottom_50 {
-    margin-bottom: 50px;
-}
-
-.margin-bottom_90 {
-    margin-bottom: 90px;
-}
-
-.margin-bottom_150 {
-    margin-bottom: 150px;
-}
-
+/* ---------------------------------
+	グローバルナビここから
+---------------------------------- */
 .navbar {
     min-height: 80px;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+        float: none;
+    }
 }
 
 .navbar-default {
@@ -98,6 +122,18 @@ body {
 .head_logo {
     padding: 10px 25px;
     margin-right: 30px;
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float: none;
+}
+
+.nav > li {
+    border-right: 1px solid #fff;
+}
+
+.nav > li:nth-child(1) {
+    border-left: 1px solid #fff;
 }
 
 .nav > li > a {
@@ -137,15 +173,14 @@ body {
     background-color: rgba(0, 0, 0, 0);
 }
 
-.well {
-    min-height: 0;
-    padding: 0;
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border: 0;
 }
 
-.line {
-    padding-bottom: 25px;
-    margin-bottom: 35px;
-    background-image: url('../img/common/line.gif');
-    background-position: bottom;
-    background-repeat: repeat-x;
+.navbar-toggle {
+    margin-top: 15px;
 }
+/* ---------------------------------
+	グローバルナビここまで
+---------------------------------- */
