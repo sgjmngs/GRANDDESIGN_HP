@@ -1,6 +1,22 @@
 .breadcrumb {
 background:0;
+    color: #000;
+}
+.breadcrumb .active{
+    border-bottom: 2px solid #333;
+    color: #333;
 }
 li a{
-    color: #000;
+    color: #333;
+    
+}
+.breadcrumb li  {
+    margin: 0 25px;
+}
+.breadcrumb > li + li:before {
+    content: "";
+    padding:0;
+}
+.pamphlet .roll_over:hover img {
+    opacity: 1;
 }

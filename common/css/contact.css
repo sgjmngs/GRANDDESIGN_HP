@@ -1,3 +1,24 @@
 .mail {
     width: 100%;
 }
+#mailformpro{
+    margin-top: 50px;
+}
+ dl dt {
+    float: left;
+    width: 160px;
+    clear: both;
+    font-size: 12px;
+    padding: 10px 0px;
+    text-align: right;
+    border-top: solid 1px #CCC;
+    margin: 0px;
+}
+ dl dd {
+    border-top: solid 1px #CCC;
+    margin: 0px;
+    padding: 10px 5px 20px 170px;
+    font-size: 12px;
+    line-height: 1.5em;
+    text-align: left;
+}

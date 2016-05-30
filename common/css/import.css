@@ -6,17 +6,28 @@ a img {
     width: 100%;
 }
 
-.container {
-    width: 100%;
-    padding: 0 0;
-    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+header {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+body {
     background: url('../img/common/bg.jpg') no-repeat;
     background-size: cover;
 }
 
+.container {
+    max-width: 1000px;
+    width: 100%;
+    border-right: 1px solid #b1b1b1;
+    border-left: 1px solid #b1b1b1;
+    padding: 0 0;
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+
 .container .row {
     width: 100%;
-    margin: 0 0;
+    margin: 0;
 }
 
 .roll_over:hover img {
@@ -29,7 +40,15 @@ a img {
     padding: 0;
 }
 
+.nav > li {
+    border-right: 1px solid #fff;
+}
+.nav > li:nth-child(1) {
+    border-left: 1px solid #fff;
+}
+
 .footer {
+    width: 100%;
     font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
     background: #000;
     color: #fff;
@@ -88,36 +107,34 @@ a img {
 }
 
 .navbar-default .navbar-nav li a {
-    border-top: dotted 2px #fff;
-    border-bottom: dotted 2px #fff;
     color: #fff;
     font-family: "ＭＳ ゴシック", sans-serif;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus {
+    border-bottom: solid 2px #f00;
 }
 
 .navbar-default .navbar-nav li:hover,
 .navbar-default .navbar-nav li:focus {
     color: #fff;
-    background-color: rgba(180, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .navbar-default .navbar-nav > .active,
 .navbar-default .navbar-nav > .active:hover,
 .navbar-default .navbar-nav > .active:focus {
     color: #fff;
-    background-color: rgba(180, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
     color: #fff;
-    background-color: rgba(180, 0, 0, 0);
-}
-
-.nav_line {
-    float: left;
-    color: #fff;
-    margin: 30px 5px;
+    border-bottom: solid 2px #f00;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .well {
